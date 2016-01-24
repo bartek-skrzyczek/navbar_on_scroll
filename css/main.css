@@ -1,0 +1,44 @@
+body {
+    padding-top: 40px;
+}
+
+.nav-down {
+    background: #f5b335;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.5s ease-in-out;
+    width: 100%;
+}
+
+.nav-down-transparent {
+    background: transparent;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+
+.nav-up {
+    top: -40px;
+}
+
+main {
+   background-color: bisque;
+    height: 2000px;
+}
+
+footer { background-color: aliceblue;
+ height: 2000px;}
+
+
+#superclass
+{ 
+    margin:50px; 
+    padding:50px; 
+    background-color:red; 
+    height:300px;width:300px;
+    opacity:0;
+}
+
